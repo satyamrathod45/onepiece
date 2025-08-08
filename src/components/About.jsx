@@ -34,8 +34,8 @@ const About = () => {
         </p>
 
         <AnimatedTitle
-          title="Where <b>legends</b> rise, <br /> and <b>pirates</b> never <br /> surrender"
-          containerClass="mt-5 !text-black text-center"
+          title="Teri Photo Churane ke liye, <br /> Maff kar dena  <br />Mrs Pirate"
+          containerClass="mt-5 !text-black text-center tracking-2"
         />
 
         <div className="about-subtext mt-2">
@@ -50,7 +50,7 @@ const About = () => {
       <div className="h-dvh w-screen" id="clip">
         <div className="mask-clip-path about-image">
           <img
-            src="img/about.png"
+            src="img/image.png"
             alt="Background"
             className="absolute left-0 top-0 size-full object-cover"
           />

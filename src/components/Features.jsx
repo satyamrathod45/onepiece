@@ -112,7 +112,7 @@ const Features = () => (
         </p>
       </div>
 
-      <BentoTilt className="border-hsla relative mb-7 h-96 w-full overflow-hidden rounded-md md:h-[65vh]">
+      <BentoTilt className="text-black border-hsla relative mb-7 h-96 w-full overflow-hidden rounded-md md:h-[65vh md:text-black">
         <BentoCard
           src="videos/feature-1.mp4"
           title={
@@ -120,7 +120,7 @@ const Features = () => (
               wa<b>n</b>ted
             </>
           }
-          description="A cross-sea pirate log, turning every wild move—from old maps to new islands—into bounty, glory, and a tale worth telling."
+          description="Hello Shreya this is the Birthday wish form the greatest creater of the wesites Satyam Rathod"
           isComingSoon
         />
       </BentoTilt>
@@ -134,7 +134,10 @@ const Features = () => (
                 first ma<b>t</b>e
               </>
             }
-            description="A tribute to loyalty, swordsmanship, and those who'd take the pain so the captain doesn’t have to."
+            description="Don't get cocky just because it's your birthday...
+...but yeah, have a good one.
+Hmph... You deserve a proper celebration—
+with swords and sake ~Zoro"
             isComingSoon
           />
         </BentoTilt>
@@ -147,7 +150,10 @@ const Features = () => (
                 left wi<b>n</b>g
               </>
             }
-            description="Silent sword, fiery kick—crew’s secret weapons and mischief makers!"
+            description="Happy Birthday, Shreya swan~ 💘
+A special feast just for you,
+with love cooked into every bite!
+May your smile shine brighter than All Blue."
             isComingSoon
           />
         </BentoTilt>
