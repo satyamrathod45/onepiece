@@ -10,7 +10,9 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-"deploy": "gh-pages -d dist --branch gh-pages --repo=https://github.com/satyamrathod45/onepiece.git"
+"deploy": "gh-pages -d dist --branch gh-pages --repo=https://github.com/satyamrathod45/onepiece.git --dotfiles"
+
+
 
 
   },
