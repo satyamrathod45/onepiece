@@ -165,7 +165,7 @@ const Hero = () => {
       </div>
 
       <h1 className="special-font hero-heading absolute bottom-5 right-5 text-black">
-        MRS P<b>I</b>RATES
+       Decimal
       </h1>
     </div>
   );
