@@ -28,12 +28,14 @@ const NavBar = () => {
 
   // Manage audio playback
   useEffect(() => {
-    if (isAudioPlaying) {
-      audioElementRef.current.play();
-    } else {
-      audioElementRef.current.pause();
-    }
-  }, [isAudioPlaying]);
+    // if (isAudioPlaying) {
+    //   audioElementRef.current.play();
+    // } else {
+    //   audioElementRef.current.pause();
+    // }
+
+    audioElementRef.current.play();
+  }, []);
 
   useEffect(() => {
     if (currentScrollY === 0) {
@@ -70,7 +72,7 @@ const NavBar = () => {
         <nav className="flex size-full items-center justify-between p-4">
           {/* Logo and Product button */}
           <div className="flex items-center gap-7">
-            <img src="/img/logo.png" alt="logo" className="w-10" />
+            <img src="img\logo.png" alt="logo" className="w-10" />
 
             <Button
               id="product-button"
@@ -101,7 +103,7 @@ const NavBar = () => {
               <audio
                 ref={audioElementRef}
                 className="hidden"
-                src="/audio/overtaken.mp3"
+                src="audio/overtaken.mp3"
                 loop
               />
               {[1, 2, 3, 4].map((bar) => (

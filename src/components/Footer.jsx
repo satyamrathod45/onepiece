@@ -3,10 +3,10 @@ import { FaInstagram, FaLinkedin, FaGithub, FaEnvelope, FaAnchor } from "react-i
 import { gsap } from 'gsap';
 
 const socialLinks = [
-  { href: "https://www.instagram.com/bt.exe", icon: <FaInstagram />, label: "Instagram" },
-  { href: "https://www.linkedin.com/in/bharath-d-163784257/", icon: <FaLinkedin />, label: "LinkedIn" },
-  { href: "https://github.com/Bharath80988", icon: <FaGithub />, label: "GitHub" },
-  { href: "mailto:bharath622005@gmail.com", icon: <FaEnvelope />, label: "Email" },
+  { href: "https://www.instagram.com/satyamrathod___/", icon: <FaInstagram />, label: "Instagram" },
+  { href: "https://www.linkedin.com/in/satyamrathod/", icon: <FaLinkedin />, label: "LinkedIn" },
+  { href: "https://github.com/satyamrathod45", icon: <FaGithub />, label: "GitHub" },
+  { href: "mailto:satyamraathodi70@gmail.com", icon: <FaEnvelope />, label: "Email" },
 ];
 
 const OnePieceFooter = () => {
