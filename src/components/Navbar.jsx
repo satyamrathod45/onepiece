@@ -28,13 +28,11 @@ const NavBar = () => {
 
   // Manage audio playback
   useEffect(() => {
-    // if (isAudioPlaying) {
-    //   audioElementRef.current.play();
-    // } else {
-    //   audioElementRef.current.pause();
-    // }
-
-    audioElementRef.current.play();
+    if (isAudioPlaying) {
+      audioElementRef.current.play();
+    } else {
+      audioElementRef.current.pause();
+    }
   }, []);
 
   useEffect(() => {
