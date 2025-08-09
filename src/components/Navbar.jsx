@@ -33,7 +33,7 @@ const NavBar = () => {
     } else {
       audioElementRef.current.pause();
     }
-  }, []);
+  }, [isAudioPlaying]);
 
   useEffect(() => {
     if (currentScrollY === 0) {
