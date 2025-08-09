@@ -49,12 +49,12 @@ const FloatingImage = () => {
     <div id="story" className="min-h-dvh w-screen bg-black text-blue-50">
       <div className="flex size-full flex-col items-center py-10 pb-24">
         <p className="font-general text-sm uppercase md:text-[10px]">
-          Multiverse of madness? Nah—this is the Pirateverse of mayhem.
+          This page is made by the great Satyam Rathod Future Web King
         </p>
 
         <div className="relative size-full">
           <AnimatedTitle
-            title="Realms Unf<b>o</b>ld N<b>o</b>w."
+            title="may god give her <br />height height <br /> fruit."
             containerClass="mt-5 pointer-events-none mix-blend-difference relative z-10"
           />
           <div className="story-img-container">
@@ -66,7 +66,7 @@ const FloatingImage = () => {
                   onMouseLeave={handleMouseLeave}
                   onMouseUp={handleMouseLeave}
                   onMouseEnter={handleMouseLeave}
-                  src="/videos/entrance.mp4"
+                  src="videos/entrance.mp4"
                   alt="entrance video"
                   className="object-contain"
                   autoPlay
@@ -109,8 +109,7 @@ const FloatingImage = () => {
         <div className="-mt-80 flex w-full justify-center md:-mt-64 md:me-44 md:justify-end">
           <div className="flex h-full w-fit flex-col items-center md:items-start">
             <p className="mt-3 max-w-sm text-center font-circular-web text-violet-50 md:text-start">
-              Fate? Treasure? Existential crisis? It's all hidden behind that
-              glowing thing everyone keeps yelling about.
+              May your journey be full of good friends, big adventures, and dreams as wide as the sea.
             </p>
 
             <Button

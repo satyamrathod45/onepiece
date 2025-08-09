@@ -41,8 +41,7 @@ const About = () => {
         <div className="about-subtext mt-2">
           <p>Chase dreams, break rules, make legends.</p>
           <p className="text-gray-500">
-            Welcome to the Grand Line, where everyone wants to be Pirate King,
-            no one has a map, and half the crew doesn’t even know how to swim
+           At the end i am pirate too so stealing is legal for me😎
           </p>
         </div>
       </div>

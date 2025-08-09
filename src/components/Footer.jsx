@@ -142,10 +142,10 @@ const OnePieceFooter = () => {
         {/* Copyright with pirate flair */}
         <div className="text-center md:text-left">
           <p className="text-lg font-bold text-yellow-200 mb-1">
-            ⚔️ Captain Bharath's Crew ⚔️
+            ⚔️ Orewa Rathod D Satyam ⚔️
           </p>
           <p className="text-sm font-light text-gray-300">
-            ©Bharath 2025. All treasures reserved
+            ©Satyam 2025. All treasures reserved
           </p>
         </div>
 

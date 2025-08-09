@@ -114,10 +114,10 @@ const Features = () => (
 
       <BentoTilt className="text-black border-hsla relative mb-7 h-96 w-full overflow-hidden rounded-md md:h-[65vh md:text-black">
         <BentoCard
-          src="videos/feature-1.mp4"
+          src="videos/hero-2.mp4"
           title={
             <>
-              wa<b>n</b>ted
+              Luffy
             </>
           }
           description="Hello Shreya this is the Birthday wish form the greatest creater of the wesites Satyam Rathod"
@@ -131,7 +131,7 @@ const Features = () => (
             src="videos/feature-2.mp4"
             title={
               <>
-                first ma<b>t</b>e
+                Zoro
               </>
             }
             description="Don't get cocky just because it's your birthday...
@@ -142,22 +142,39 @@ with swords and sake ~Zoro"
           />
         </BentoTilt>
 
-        <BentoTilt className="bento-tilt_1 row-span-1 ms-32 md:col-span-1 md:ms-0">
+
+ <BentoTilt className="bento-tilt_1 row-span-1 md:col-span-1 md:row-span-2">
           <BentoCard
             src="videos/feature-3.mp4"
             title={
               <>
-                left wi<b>n</b>g
+                Sanji
               </>
             }
             description="Happy Birthday, Shreya swan~ 💘
 A special feast just for you,
 with love cooked into every bite!
-May your smile shine brighter than All Blue."
+May your smile shine brighter than All Blue. ~Sanji"
             isComingSoon
           />
         </BentoTilt>
 
+        {/* <BentoTilt className="bento-tilt_1 row-span-1 ms-32 md:col-span-1 md:ms-0">
+          <BentoCard
+            src="videos/strawhats.mp4"
+            title={
+              <>
+                Strawhats
+              </>
+            }
+            description="HAPPY BIRTHDAY, SHREYA!! THIS IS FROM ALL THE STRAWHATS LET’S SET SAIL FOR ANOTHER AMAZING YEAR!"
+            isComingSoon
+          />
+        </BentoTilt> */}
+
+
+        
+{/* 
         <BentoTilt className="bento-tilt_1 me-14 md:col-span-1 md:me-0">
           <BentoCard
             src="videos/feature-4.mp4"
@@ -169,9 +186,9 @@ May your smile shine brighter than All Blue."
             description="The wild bunch behind the captain—each one crazier and more loyal than the last."
             isComingSoon
           />
-        </BentoTilt>
+        </BentoTilt> */}
 
-        <BentoTilt className="bento-tilt_2">
+        {/* <BentoTilt className="bento-tilt_2">
           <div className="flex size-full flex-col justify-between bg-violet-300 p-5">
             <h1 className="bento-title special-font max-w-64 text-black">
               M<b>o</b>re adventures s<b>o</b>on!
@@ -179,15 +196,31 @@ May your smile shine brighter than All Blue."
 
             <TiLocationArrow className="m-5 scale-[5] self-end" />
           </div>
+        </BentoTilt> */}
+
+ <BentoTilt className="bento-tilt_1 row-span-1 md:col-span-1 md:row-span-2">
+          <BentoCard
+            src="videos/ussop.mp4"
+            title={
+              <>
+               God Ussop
+              </>
+            }
+            description="Listen up, Shreya! This is Captain Usopp speaking—today is your legendary birthday! I once fought a sea king just to get your cake! True story! ~Ussop"
+            isComingSoon
+          />
         </BentoTilt>
 
-        <BentoTilt className="bento-tilt_2">
-          <video
-            src="videos/feature-5.mp4"
-            loop
-            muted
-            autoPlay
-            className="size-full object-cover object-center"
+        <BentoTilt className="bento-tilt_1 row-span-1 md:col-span-1 md:row-span-2">
+          <BentoCard
+            src="https://motionbgs.com/media/5872/straw-hat-pirates.960x540.mp4"
+            title={
+              <>
+               Strawhats
+              </>
+            }
+            description="Listen up, Shreya! This is Captain Usopp speaking—today is your legendary birthday! I once fought a sea king just to get your cake! True story! ~Ussop"
+            isComingSoon
           />
         </BentoTilt>
       </div>
