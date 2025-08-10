@@ -66,7 +66,7 @@ const FloatingImage = () => {
                   onMouseLeave={handleMouseLeave}
                   onMouseUp={handleMouseLeave}
                   onMouseEnter={handleMouseLeave}
-                  src="videos/entrance.mp4"
+                  src="videos\entrance.mp4"
                   alt="entrance video"
                   className="object-contain"
                   autoPlay
