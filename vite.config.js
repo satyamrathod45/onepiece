@@ -1,8 +1,9 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 
-// https://vite.dev/config/
+const isGitHubPages = process.env.GITHUB_REPOSITORY?.includes('satyamrathod45/onepiece');
+
 export default defineConfig({
+  base: isGitHubPages ? '/onepiece/' : '/',
   plugins: [react()],
-    base: process.env.VERCEL ? '/' : '/onepiece/',
-})
+});
