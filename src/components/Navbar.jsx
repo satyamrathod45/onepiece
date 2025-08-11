@@ -3,6 +3,8 @@ import gsap from "gsap";
 import { useWindowScroll } from "react-use";
 import { useEffect, useRef, useState } from "react";
 import { TiLocationArrow } from "react-icons/ti";
+import { FaMusic } from "react-icons/fa";
+
 
 import Button from "./Button";
 
@@ -96,15 +98,11 @@ const NavBar = () => {
 
             <button
               onClick={toggleAudioIndicator}
-              className="ml-10 flex items-center space-x-0.5"
+              className="ml-10 flex items-center space-x-0.5 h-10"
             >
-              <audio
-                ref={audioElementRef}
-                className="hidden"
-                src="audio\overtaken.mp3"
-                loop
-              />
-              {[1, 2, 3, 4].map((bar) => (
+               <Button
+              id="product-button"
+              title={ [1, 2, 3, 4].map((bar) => (
                 <div
                   key={bar}
                   className={clsx("indicator-line", {
@@ -115,6 +113,16 @@ const NavBar = () => {
                   }}
                 />
               ))}
+              rightIcon={<FaMusic  />}
+              containerClass="bg-blue-50 md:flex hidden items-center justify-center gap-1"
+            />
+              <audio
+                ref={audioElementRef}
+                className="hidden"
+                src="audio\overtaken.mp3"
+                loop
+              />
+             
             </button>
           </div>
         </nav>

@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://satyamrathod45.github.io/onepiece",
+  "homepage": "https://satyamrathod45.github.io/onepiece" ,
   "scripts": {
     "dev": "vite",
     "build": "vite build",

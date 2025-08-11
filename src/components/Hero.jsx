@@ -2,6 +2,7 @@ import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/all";
 import { TiLocationArrow } from "react-icons/ti";
+import { FaBirthdayCake } from "react-icons/fa";
 import { useEffect, useRef, useState } from "react";
 
 import Button from "./Button";
@@ -80,7 +81,10 @@ const Hero = () => {
     });
   });
 
-  const getVideoSrc = (index) => `videos/hero-${index}.mp4`;
+
+  let videoArray = ["https://motionbgs.com/media/6122/chopper-one-piece.960x540.mp4" , "https://motionbgs.com/media/5244/gear-5-luffy-vs-lucci.960x540.mp4" ,"https://motionbgs.com/media/6130/sanji-with-cigarette.960x540.mp4" , "https://motionbgs.com/media/1237/zoro-in-land-of-wano-one-piece.960x540.mp4" , "https://motionbgs.com/media/6122/chopper-one-piece.960x540.mp4" , "https://motionbgs.com/media/5873/nico-robin-pirate-hunter.960x540.mp4"]
+
+  const getVideoSrc = (index) => videoArray[index];
 
   return (
     <div className="relative h-dvh w-screen overflow-x-hidden">
@@ -156,8 +160,8 @@ const Hero = () => {
 
             <Button
               id="watch-trailer"
-              title="Watch Journey"
-              leftIcon={<TiLocationArrow />}
+              title="12 AUG"
+              leftIcon={<FaBirthdayCake  />}
               containerClass="bg-yellow-300 flex-center gap-1"
             />
           </div>

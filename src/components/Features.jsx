@@ -103,24 +103,25 @@ const Features = () => (
     <div className="container mx-auto px-3 md:px-10">
       <div className="px-5 py-32">
         <p className="font-circular-web text-lg text-blue-50">
-          Crossin’ into Uncharted Waters
+          Message from Satyam to Decimal
         </p>
         <p className="max-w-md font-circular-web text-lg text-blue-50 opacity-50">
-          Sail into chaos, treasure, and talking reindeer—where maps are
-          useless, captains yell a lot, and friendship might actually punch a
-          sea monster.
+         On this special day, may your spirit sail as free as the Thousand Sunny, your dreams shine brighter than Gol D. Roger’s treasure, and your journey ahead be filled with adventures as grand as the Grand Line.
         </p>
       </div>
 
       <BentoTilt className="text-black border-hsla relative mb-7 h-96 w-full overflow-hidden rounded-md md:h-[65vh md:text-black">
         <BentoCard
-          src="videos/hero-2.mp4"
+          src="https://motionbgs.com/media/8043/luffy-on-thousand-sunny.960x540.mp4"
           title={
             <>
               Luffy
             </>
           }
-          description="Hello Shreya this is the Birthday wish form the greatest creater of the wesites Satyam Rathod"
+          description="Oi! Happy Birthday! 🎉
+Eat all the meat and cake you want today — it’s your day!
+We’ll party like the whole crew’s here on the Sunny!
+And remember… Kaizoku ni ore wa naru!"
           isComingSoon
         />
       </BentoTilt>
@@ -213,13 +214,13 @@ May your smile shine brighter than All Blue. ~Sanji"
 
         <BentoTilt className="bento-tilt_1 row-span-1 md:col-span-1 md:row-span-2">
           <BentoCard
-            src="https://motionbgs.com/media/5872/straw-hat-pirates.960x540.mp4"
+            src="https://motionbgs.com/media/8043/luffy-on-thousand-sunny.960x540.mp4"
             title={
               <>
                Strawhats
               </>
             }
-            description="Listen up, Shreya! This is Captain Usopp speaking—today is your legendary birthday! I once fought a sea king just to get your cake! True story! ~Ussop"
+            description="We, the entire Straw Hat crew, have dropped anchor just to celebrate your special day! The deck is full of laughter, Sanji’s cooking up a feast, and even Zoro hasn’t gotten lost—because today is all about you. From the Thousand Sunny to the ends of the Grand Line… Happy Birthday to you"
             isComingSoon
           />
         </BentoTilt>
@@ -229,3 +230,5 @@ May your smile shine brighter than All Blue. ~Sanji"
 );
 
 export default Features;
+
+
